@@ -1,0 +1,165 @@
+body {
+  color: rgb(10, 10, 10);     /* Text color */
+	background-color: #DFDDDF;  /* Background color */
+	margin: 70px; 
+	font-family: Helvetica;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.firstbanner {
+  /* 1. Set a background image */
+background-image:
+    /* Transparent gradient above */
+    linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%),
+    /* Then image below */
+    url(universe-1566161_1920.jpg);   
+  /* 2. Make the background image cover the banner div */
+	background-size: cover;     
+  /* 3. Center the image */
+	background-position: center;
+	padding: 30px;
+    text-align: center;
+        border-radius: 20px;
+
+}
+
+.firstbanner h1 {
+  color: white;
+  font-size: 50px;
+  text-decoration: none;
+   text-align: center;
+}
+.firstbanner h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+	opacity: 0.8;
+}
+
+.styled {
+    border: 0 20px;
+    align-content: center;
+    line-height: 2.5;
+    padding: 0 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+    background-color: #64c4ed;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: #5edfff;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.Infos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	background: #769fcd;
+	background-position: center;
+	background-size: cover;
+    text-align: center;
+	padding: 30px;
+	border-radius: 20px; 
+	box-shadow: 0 15px 35px rgba(50,50,93,.1); 
+	width: 700px; 
+	margin: 40px auto
+}
+.Infos img {
+  width: 10px;
+  align-items: center
+  padding: 20px;
+}
+.Infos h2 {
+  flex-grow: 2;
+  padding-left: 20px;
+
+.FXP {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	border-top: 1px solid red;
+	border-right: 2px dotted black;
+	border-bottom: 1px dashed green;
+	border-left: 2px dotted black;
+	background: #fcf9ea;
+	background-position: center;
+	background-size: cover;
+    text-align: center;
+	padding: 30px;
+	border-radius: 20px; 
+	box-shadow: 0 15px 35px rgba(50,50,93,.1); 
+	width: 700px; 
+	margin: 40px auto
+}
+.FXP img {
+  width: 10px;
+  align-items: center;
+}
+.FXP h2 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+.SXP {
+	background: #937666; 
+	border-radius: 10px; 
+	box-shadow: 0 15px 35px rgba(50,50,93,.1); 
+	width: 700px; 
+	margin: 50px;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+	padding: 30px;
+	background-position: center;
+	background-size: cover;
+    text-align: center;
+    border-radius: 20px;
+}
+.SXP img {
+  width: 10px;
+  align-items: center;
+}
+.SXP h2 {
+  flex-grow: 1;
+  padding-left: 20px;
+  color: white;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+.SXP h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+	opacity: 0.8;
+}
